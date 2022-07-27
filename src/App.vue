@@ -1,30 +1,27 @@
-<template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+<template lang="">
+  <div id="app">
+    <router-view></router-view>
+    <FooterGuide v-show="$route.meta.showFooter" />
+	
+  </div>
 </template>
-
+<script>
+import FooterGuide from "./components/FooterGuide/FooterGuide.vue";
+export default {
+  components: { FooterGuide },
+};
+</script>
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+#app {
+  background-color: #f5f5f5;
+  height: 100%;
+  width: 15rem;
 }
 </style>
