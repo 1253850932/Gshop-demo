@@ -1,32 +1,31 @@
 <template lang="">
-	<div class="footerContainer">
-		<router-link to="/" active-class="active">
-			<svg class="icon one" aria-hidden="true">
-				<use xlink:href="#icon-waimai"></use>
-			</svg>
-			<span>外卖</span>
-		</router-link>
-		<routerLink to="/search" active-class="active">
-			<svg class="icon" aria-hidden="true">
-				<use xlink:href="#icon-sousuo1"></use>
-			</svg>
-			<span>搜索</span>
-
-		</routerLink>
-		<routerLink to="/order" active-class="active">
-			<svg class="icon" aria-hidden="true">
-				<use xlink:href="#icon-dingdan"></use>
-			</svg>
-			<span>订单</span>
-
-		</routerLink>
-		<routerLink to="/profile" active-class="active">
-			<svg class="icon" aria-hidden="true">
-				<use xlink:href="#icon-31wode"></use>
-			</svg>
-			<span>我的</span>
-		</routerLink>
-	</div>
+  <div class="footerContainer">
+	  
+		  <router-link to="/" active-class="active">
+			  <svg class="icon one" aria-hidden="true">
+				  <use xlink:href="#icon-waimai"></use>
+				</svg>
+				<span>外卖</span>
+			</router-link>
+    <routerLink to="/search" active-class="active">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-sousuo1"></use>
+      </svg>
+      <span>搜索</span>
+    </routerLink>
+    <routerLink to="/order" active-class="active">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-dingdan"></use>
+      </svg>
+      <span>订单</span>
+    </routerLink>
+    <routerLink to="/profile" active-class="active">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-31wode"></use>
+      </svg>
+      <span>我的</span>
+    </routerLink>
+  </div>
 </template>
 <script>
 export default {};
@@ -43,7 +42,7 @@ export default {};
 
   justify-content: space-evenly;
   align-items: flex-end;
-  border-top: 1px solid #bfc9c9 ;
+  border-top: 1px solid #bfc9c9;
   .icon {
     width: 1rem;
     height: 1rem;
@@ -65,12 +64,12 @@ export default {};
 .active {
   .icon {
     transform: scale(1.1);
-	transform: translateY(-0.2rem);
+    transform: translateY(-0.2rem);
     color: #087f65;
   }
-  span{
-	transform: scale(1.1);
-	transform: translateY(-0.2rem);
+  span {
+    transform: scale(1.1);
+    transform: translateY(-0.2rem);
 
     color: #087f65;
   }

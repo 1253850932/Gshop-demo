@@ -29,7 +29,7 @@ export default {
 	.msite_header{
 		display:flex;
 		justify-content: space-between;
-		width:15rem;
+		width: 15rem;
 		height: 1.8rem;
 		background-color: #02a774;
 		font-size: .8rem;
@@ -51,6 +51,7 @@ export default {
 		.header_login{
 			display: block;
 			width: 2.6rem;
+			color: aliceblue;
 			line-height: 1.8rem;
 			font-size: .56rem;
 		}

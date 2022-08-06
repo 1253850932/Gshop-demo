@@ -9,10 +9,17 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "babel-plugin-component": "^1.1.1",
+    "better-scroll": "^2.4.2",
+    "element-plus": "^2.2.11",
+    "mitt": "^3.0.0",
+    "mockjs": "^1.1.0",
     "swiper": "^8.3.1",
     "vant": "^3.5.2",
     "vue": "^3.2.13",
+    "vue-lazyload": "^3.0.0-rc.2",
     "vue-router": "^4.0.3",
+    "vue3-lazyload": "^0.3.6",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
@@ -24,10 +31,11 @@
     "eslint-plugin-vue": "^8.0.3",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
-    "unplugin-vue-components": "^0.21.0"
+    "unplugin-auto-import": "^0.10.3",
+    "unplugin-vue-components": "^0.21.2"
   },
   "eslintConfig": {
-    "root": true,
+    "root": false,
     "env": {
       "node": true
     },
